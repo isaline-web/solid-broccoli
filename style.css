@@ -1,0 +1,90 @@
+/* Write your CSS here */
+body{
+	font-family: 'Solway', serif;
+	background-color: #D3D5D4;
+	text-align: center;
+}
+h1{
+  font-family: 'Solway', serif;
+  color: white;
+  font-weight: lighter;
+  font-size: 12px;
+}
+h2 {
+  font-family: 'Solway', serif;
+  color: black;
+  font-weight: lighter;
+  font-size: 10px;
+}
+a {
+  color: black;
+  text-align: center;
+  text-shadow: currentColor;
+  text-decoration: none;
+}
+a:hover {
+  color: #7FB069;
+}
+#banner {
+	background-color: : #233329;
+	background-image: url("images/fond.jpg");
+	text-align: center;
+	background-size: cover;
+  	background-position: center;
+  	padding: 150px 0;
+	color: white;
+}
+#banner h1 {
+  font-size: 50px;
+}
+#banner p {
+  margin-bottom: 40px;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#banner img {
+	border-radius: 50%;
+}
+.white-card {
+	background-color: white;
+  	border-radius: 4px;
+  	text-align: center;
+  	box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  	padding: 16px;
+  	margin: 16px 0px;
+}
+.card-white img {
+  margin-bottom: 20px;
+}
+#footer {
+  padding: 30px;
+  background-color: black;
+  color: lightgrey;
+}
+.btn-blue {
+	color: white;
+  background-color: #6772e5;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+.btn-blue:hover {
+  background-color: #7795f8;
+  color: white;
+}
+#cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px
+}
+@media(max-width: 992px){
+  .cards{
+  width: 750px;
+  }
+}
+@media(max-width: 768px){
+  .cards{
+  width: 90%;
+  grid-template-columns: 1fr;
+  }
